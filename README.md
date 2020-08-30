@@ -3,7 +3,7 @@
 
 A user interface which helps in calculating the Herschel Bulkley fluids rheological properties (yield stress, consistency index and flow behavior index) by the 6 viscometer readings. 
 
-![](header.png)
+![](screenshot.jpg)
 
 ## Installation
 
