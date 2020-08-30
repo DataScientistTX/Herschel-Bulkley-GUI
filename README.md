@@ -45,8 +45,8 @@ python run.py
 
 
 The program will automatically run and provide the following screen to enter viscometer readings:
-
 ![](screenshot.JPG)
+
 
 Enter the 6 viscometer readings obtained from an R1B1 viscometer. 
 
