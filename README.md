@@ -1,11 +1,7 @@
-# Product Name
-> Short blurb about what your product does.
+# Herschel Bulkley Calculator
+> A user interface which to calculate Herschel Bulkley fluids rheological properties
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
-One to two paragraph statement about your product and what it does.
+A user interface which helps in calculating the Herschel Bulkley fluids rheological properties (yield stress, consistency index and flow behavior index) by the 6 viscometer readings. 
 
 ![](header.png)
 
