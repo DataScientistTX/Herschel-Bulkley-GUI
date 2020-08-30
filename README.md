@@ -1,74 +1,63 @@
 # Herschel Bulkley Calculator
-> A user interface which to calculate Herschel Bulkley fluids rheological properties
 
-A user interface which helps in calculating the Herschel Bulkley fluids rheological properties (yield stress, consistency index and flow behavior index) by the 6 viscometer readings. 
+Herschel Bulkley Calculator is a user interface which calculates a fluid's rheological properties (yield stress, consistency index and flow behavior index) by the 6 viscometer readings using the Herschel-Bulkley fluid rheology model (which can also be used for power-law, bingham plastic and newtonian fluids).
 
-![](screenshot.JPG)
 
 ## Installation
 
-OS X & Linux:
+In the Linode terminal from the home directory, use the command git clone, then paste the link from your clipboard, or copy the command and link from below:
 
-```sh
-npm install my-crazy-module --save
+```bash
+git clone https://github.com/sercangul/Herschel-Bulkley-GUI.git
 ```
 
-Windows:
+Change directories to the new ~/Herschel-Bulkley-GUI directory:
 
-```sh
-edit autoexec.bat
+```bash
+cd ~/Herschel-Bulkley-GUI/
 ```
 
-## Usage example
+To ensure that your master branch is up-to-date, use the pull command:
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
-
-_For more examples and usage, please refer to the [Wiki][wiki]._
-
-## Development setup
-
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
-```sh
-make install
-npm test
+```bash
+git pull https://github.com/sercangul/Herschel-Bulkley-GUI.git master
 ```
 
-## Release History
+Install required python packages using requirements.txt:
 
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
+```bash
+pip install -r requirements.txt
+```
 
-## Meta
+## Usage
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+Change directories to the new ~/Herschel-Bulkley-GUI directory:
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+```bash
+cd ~/Herschel-Bulkley-GUI/
+```
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+Run the script using Python:
+
+```bash
+python run.py
+```
+
+
+The program will automatically run and provide the following screen to enter viscometer readings:
+
+![](screenshot.JPG)
+
+Enter the 6 viscometer readings obtained from an R1B1 viscometer. 
+
+Press calculate.
+
+Press plot.
 
 ## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
+Please make sure to update tests as appropriate.
 
-<!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
+## License
+[Apache 2.0](https://choosealicense.com/licenses/apache-2.0/)
