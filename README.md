@@ -5,7 +5,7 @@ Herschel Bulkley Calculator is a user interface which calculates a fluid's rheol
 
 ## Installation
 
-In the Linode terminal from the home directory, use the command git clone, then paste the link from your clipboard, or copy the command and link from below:
+In the terminal from the home directory, use the command git clone, then paste the link from your clipboard, or copy the command and link from below:
 
 ```bash
 git clone https://github.com/sercangul/Herschel-Bulkley-GUI.git
